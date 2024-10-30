@@ -1,7 +1,8 @@
 'use client';
 import { useState } from 'react';
-import { FaRegCalendarAlt, FaTools, FaBrain, FaCoins, FaClipboardList, FaLayerGroup, FcLightAtTheEndOfTunnel } from 'react-icons/fa';
+import { FaRegCalendarAlt, FaTools, FaBrain, FaCoins, FaClipboardList, FaLayerGroup } from 'react-icons/fa';
 import { MdExpandLess, MdExpandMore } from 'react-icons/md';
+import { TbPrismLight } from "react-icons/tb";
 
 interface DropdownItem {
   title: string;
@@ -113,7 +114,7 @@ const WorkflowDetail: React.FC = () => {
     },
     {
       label: "5. JDL Spiritual App",
-      icon: <FcLightAtTheEndOfTunnel className="text-pink-500" />,
+      icon: <TbPrismLight className="text-blue-500" />,
       items: [
         {
           title: "Inicio Enero 2025, Producción Febrero 2025",
